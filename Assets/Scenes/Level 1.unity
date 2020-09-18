@@ -488,21 +488,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1834184285727307095, guid: 323cf06a36de93d47aacb9ff4bec79ea,
-        type: 3}
-      propertyPath: m_UseAutoMass
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6600212878777253259, guid: 323cf06a36de93d47aacb9ff4bec79ea,
         type: 3}
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 721081375}
-    - target: {fileID: 6600212878777253259, guid: 323cf06a36de93d47aacb9ff4bec79ea,
-        type: 3}
-      propertyPath: yPush
-      value: 1000
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 323cf06a36de93d47aacb9ff4bec79ea, type: 3}
 --- !u!1001 &2085758499
