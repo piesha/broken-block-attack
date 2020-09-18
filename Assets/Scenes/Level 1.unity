@@ -148,6 +148,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e1ff190a37ec8459728cae85ce5b1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &859395322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1834184285727307083, guid: 323cf06a36de93d47aacb9ff4bec79ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2050428143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &859395325
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859395322}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &979282518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -493,7 +520,13 @@ PrefabInstance:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 721081375}
-    m_RemovedComponents: []
+    - target: {fileID: 6600212878777253259, guid: 323cf06a36de93d47aacb9ff4bec79ea,
+        type: 3}
+      propertyPath: yPush
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1834184285727307095, guid: 323cf06a36de93d47aacb9ff4bec79ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 323cf06a36de93d47aacb9ff4bec79ea, type: 3}
 --- !u!1001 &2085758499
 PrefabInstance:
@@ -1037,6 +1070,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Play Space
       objectReference: {fileID: 0}
+    - target: {fileID: 5766735739734256743, guid: 46f781a44d0ea0f478cd154264ea049c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5766735740647466623, guid: 46f781a44d0ea0f478cd154264ea049c,
         type: 3}
       propertyPath: m_IsActive
@@ -1056,6 +1094,11 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1016547872}
+    - target: {fileID: 6148117532542726314, guid: 80b18173fceda424190837c367e73caa,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6148117532542726315, guid: 80b18173fceda424190837c367e73caa,
         type: 3}
       propertyPath: m_LocalPosition.x
