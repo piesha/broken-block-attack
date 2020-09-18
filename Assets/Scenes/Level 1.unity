@@ -972,6 +972,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5766735739502299135, guid: 46f781a44d0ea0f478cd154264ea049c,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5766735739734256736, guid: 46f781a44d0ea0f478cd154264ea049c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1031,6 +1036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Play Space
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766735740647466623, guid: 46f781a44d0ea0f478cd154264ea049c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f781a44d0ea0f478cd154264ea049c, type: 3}
