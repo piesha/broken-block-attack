@@ -261,7 +261,8 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 2594183623259724337}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2441753095965028270, guid: f778db8ec3406a840b011b22c21ec18c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f778db8ec3406a840b011b22c21ec18c, type: 3}
 --- !u!224 &2594183623259724302 stripped
 RectTransform:
