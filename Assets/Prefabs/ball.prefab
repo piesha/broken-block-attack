@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1834184285727307081}
   - component: {fileID: 1834184285727307080}
   - component: {fileID: 1834184285727307095}
-  - component: {fileID: 1834184285727307092}
   - component: {fileID: 1834184285727307090}
   - component: {fileID: 6600212878777253259}
   m_Layer: 0
@@ -50,6 +49,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -61,6 +62,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -112,27 +114,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.2867963
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1834184285727307092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834184285727307083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c4e966543c3c44d809382c172f1280, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1834184285727307090
 AudioSource:
   m_ObjectHideFlags: 0
@@ -243,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddle1: {fileID: 0}
   xPush: 5
-  yPush: 15
+  yPush: 1000
   ballSounds:
   - {fileID: 8300000, guid: f1dc69eb63c48674f8b5541f3dfc5bef, type: 3}
   - {fileID: 8300000, guid: 1d2d43be002ad6f47b507bdb20650a7e, type: 3}
